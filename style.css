@@ -86,7 +86,6 @@
 }
 
 .pet h2 {
- 
   font-family: Roboto Serif;
   font-size: 3.125rem;
   font-weight: 700;
@@ -237,3 +236,152 @@ footer {
 }
 
 
+/* medias queries*/
+@media (min-width:201px) and (max-width: 500px){
+  .menu{
+    width: 100%;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  .logo{
+    width: 40vw;
+    height: 9vh;
+  }
+
+  .links{
+    width: 30vw;
+    height: 9vh;
+    padding-right: 0px;
+    align-items: center;
+  }
+
+  .links a:nth-of-type(1), 
+  .links a:nth-of-type(2) 
+  {
+    display: none;
+  }
+
+  .welcome{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/Grupo486.png');
+  }
+
+  .welcome h2 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .welcome picture img {
+    padding-top: 36px;
+  }
+
+  .pet{
+    width: 100%;
+    height: 920px;
+    background-image: url('./img/cachorro-2.svg');
+    background-size: 80vw;
+    background-position: bottom;
+    background-color: #F4F2F3;
+    padding-top: 100px;
+    padding-left: 25px;
+    display: flex;
+    justify-content: initial;
+    align-items: flex-start;
+  }
+
+  .pet h2 {
+    font-size: 2rem;
+  }
+
+  .pet p {
+    width: 300px;
+    height: 200px;
+    font-size: 1.3rem;
+    padding-top: 0px;
+  }
+
+  .pet a,
+  .dog a {
+    width: 220px;
+    height: 60px;
+    padding: 12px;
+    font-size: 1.5rem;
+  }
+
+  .dog{
+    width: 100%;
+    height: 900px;
+    background-image: url('./img/Grupo496.png');
+    padding-top: 100px;
+    padding-left: 25px;
+    justify-content: initial;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .dog h2 br{
+    display: none;
+  }
+
+  .dog h2{
+    width: 300px;
+    height: 40px;
+    font-size: 1.7rem;
+    line-height: 40px;
+  }
+
+  .dog p {
+    width: 300px;
+    height: 200px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 1.3rem;
+  }
+
+  .apoio{
+    width: 100%;
+  }
+
+  .parceiros {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .parceiros h2 {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+  }
+
+  .parceiros-imgs img{
+    width: 140px;
+  }
+
+  .parceiros-imgs {
+    width: 100%;
+  }
+
+  footer{
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/footer.jpg');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: top center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .atendimento,
+  .sobre,
+  .unidades {
+    width: 100%;
+    align-items: center;
+  }
+}
