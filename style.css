@@ -48,6 +48,7 @@
 .welcome {
   background-image: url('./img/Grupo486@2x.png');
   background-size: cover;
+  white-space: pre-line;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -138,6 +139,7 @@
 .dog h2{
   width: 254px;
   height: 118px;
+  white-space: pre-line;
   font-family: Roboto Serif;
   font-size: 3.125rem;
   font-weight: 700;
@@ -319,17 +321,13 @@ footer {
     padding-top: 100px;
     padding-left: 25px;
     justify-content: initial;
-    gap: 20px;
+    gap: 10px;
     align-items: flex-start;
   }
   
-  .dog h2 br{
-    display: none;
-  }
-
   .dog h2{
     width: 300px;
-    height: 40px;
+    height: 90px;
     font-size: 1.7rem;
     line-height: 40px;
   }
